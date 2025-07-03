@@ -1,0 +1,31 @@
+age: [adult, child, old, young]
+armor: [none, light, medium, heavy, natural]
+class: [artificer, wizard, sorcerer, fighter, rogue, cleric, ranger, druid, paladin]
+clothing: [casual, ceremonial, exotic, merchant, military, noble, none, robes, royal, stealth, tattered, traveler, tribal, uniform]
+element: [acid, blood, cold, earth, fire, force, lava, lightning, necrotic, plague, poison, psychic, radiant, shadow, storm, thunder, void, water, wind]
+faction: [alliance, undead, bandit, neutral, tribal, empire, pirate]
+gender: [androgynous, male, female, unknown, n/a]
+held: [animal, melee, ranged, magic, object, tool, shield, nothing, dual-wield, two-handed]
+mount: [horse, goat, wyvern, dragon, griffon, amphiptere]
+pose: [standing, casting, aiming, walking, idle, dead, mounted]
+race: [human, elf, dwarf, orc, goblin, undead, construct, tiefling, dragonborn, lizardfolk, centaur]
+racegroup: [aberration, aquatic, beast, beastfolk, celestial, construct, draconic, elemental, fey, fiend, goblinoid, giantkin, humanoid, monstrous, plant, undead, unknown]
+role: [hero, villain, npc, civilian, mount, familiar, beast]
+setting: [urban, wilderness, underground, planar, futuristic]
+size: [tiny, small, medium, large, huge, gargantuan, colossal]
+theme: [arcane, urban, natural, noble, dark, desert, medieval, steampunk, sacred, sea, sci-fi, winter]
+weapon: [sword, bow, dagger, staff, spear, hammer, none]
+
+phrase_map:
+  "rocky base": {key: setting, value: wilderness}
+  "metal armor": {key: armor, value: heavy}
+  "flowing robes": {key: clothing, value: robes}
+  "mounted on a horse": {key: mount, value: horse}
+  "wearing noble attire": {key: clothing, value: noble}
+  "crouched in shadows": {key: pose, value: stealth}
+  "wields a large hammer": {key: weapon, value: hammer}
+  "floating undead figure": {key: race, value: undead}
+  "ethereal spirit": {key: racegroup, value: undead}
+  "clad in tribal gear": {key: clothing, value: tribal}
+  "crackling with lightning": {key: element, value: lightning}
+  "shadowy figure": {key: theme, value: dark}
